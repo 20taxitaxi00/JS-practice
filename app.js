@@ -16,6 +16,16 @@ if (i % 2 === 0) {
 	console.log(`${i}は奇数です。`);
 }
 
+// switch文（bool型　true or false）
+// switch (i % 2 === 0) {
+// 	case true:
+// 		console.log(`${i}は偶数です`);
+// 		break;
+// 	default:
+// 		console.log(`${i}は奇数です`);
+// 		break;
+// }
+
 
 console.log('----------------2. 合格判定----------------');
 /**
@@ -50,6 +60,14 @@ for (i of numbers){
 }
 console.log(res);
 
+// for文を使った回答
+// for (let i = 0; i <= 9; i++){
+// 	if (numbers[i] === 3){
+// 		res++;
+// 	}
+// }
+// console.log(res);
+
 
 console.log('----------------4. 3倍した数を表示する----------------');
 /**
@@ -57,7 +75,7 @@ console.log('----------------4. 3倍した数を表示する----------------');
  * 3 6 9 ... 30 までが表示されればOKです
  */
 for (let i = 1; i <= 10; i++){
-	console.log(i*3);
+	console.log(i * 3);
 }
 
 
